@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: beige;
+
+}
+.navbar{
+    /* height: 100%; */
+    color: blue;
+    padding: 5px;
+}
+.navbar:hover{
+    text-decoration: underline
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
