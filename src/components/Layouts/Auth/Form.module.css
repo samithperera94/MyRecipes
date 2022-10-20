@@ -1,0 +1,32 @@
+form{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.error_class{
+    color: orangered !important;
+}
+.error_class .inputSection input{
+    border: 1px solid orangered !important;
+}
+.form .inputSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.form .inputSection label{
+    font-size: medium;
+    font-weight: 600;
+}
+.form .inputSection input{
+    border: 1px solid #545450;
+}
+
+.input-feild{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
