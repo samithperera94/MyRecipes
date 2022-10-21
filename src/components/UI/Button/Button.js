@@ -13,7 +13,7 @@ const Button = (props) => {
             type={`${props.type} || button`}
             className={`${styles.button} ${props.className}`}
         >
-
+            {props.label}
         </button>
     )
 }

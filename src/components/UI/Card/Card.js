@@ -4,8 +4,8 @@ import styles from './Card.module.css';
 const Card = (props) => {
     
     return (
-        <div className={`${styles.card} ${(props.className != undefined) && props.className}`}>
-
+        <div className={`${styles.card} ${(props.className !== undefined) && props.className}`}>
+            {props.children}
         </div>
     )
 }

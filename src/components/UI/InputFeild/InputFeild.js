@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Form.module.css';
+import styles from './InputFeild.module.css';
 
 const InputFeild = (props) => {
     return (
@@ -7,8 +7,8 @@ const InputFeild = (props) => {
             <label>{props.label}</label>
             <input 
             type={props.inputType} 
-            onChange={props.onChangeHandler} v
-            alue={`${props.inputValue} || ''`}/>
+            onChange={props.onChangeHandler} 
+            className={`${props.inputValue || ''}`}/>
         </div>
     )
 }

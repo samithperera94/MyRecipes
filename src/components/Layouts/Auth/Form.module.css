@@ -23,9 +23,10 @@ form{
     border: 1px solid #545450;
 }
 
-.input-feild{
-    display: flex;
-    flex-direction: column;
+
+.formTitle{
+    color: #545450;
+    
 }
 
 
