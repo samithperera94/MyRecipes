@@ -3,7 +3,7 @@ import styles from './Button.module.css';
 
 const Button = (props) => {
     const onClickHandler = () => {
-        if (props.onClick != undefined) {
+        if (props.onClick !== undefined) {
             props.onClick();
         }
     }
@@ -11,7 +11,7 @@ const Button = (props) => {
         <button
             onClick={onClickHandler}
             type={`${props.type} || button`}
-            className={`${styles.button} ${props.className}`}
+            className={`${styles.button} ${styles[props.className]}`}
         >
             {props.label}
         </button>
